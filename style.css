@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Bebas+Neue&display=swap');
+
 body {
   font-family: 'Oswald', sans-serif;
   background-color: #f4f4f4;
@@ -12,15 +14,14 @@ body {
   background: #fff;
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  border: 2px solid black;  /* 검은색 테두리 추가 */
   text-align: center;
-  animation: fadeIn 0.5s ease-in;
 }
 
 h1 {
-  color: #333;
-  font-family: 'Bebas Neue', sans-serif;
+  font-family: 'Bebas Neue', sans-serif; /* 제목은 Bebas Neue */
   font-size: 2.5rem;
+  color: #333;
 }
 
 label {
@@ -32,7 +33,7 @@ label {
 input {
   padding: 5px;
   font-size: 16px;
-  width: 60px;
+  width: 80px;
 }
 
 button {
@@ -48,8 +49,8 @@ button {
 }
 
 button:hover {
-  background-color: #444;
   transform: scale(1.1);
+  background-color: #444;
 }
 
 #result {
@@ -58,17 +59,11 @@ button:hover {
   font-weight: bold;
   color: #555;
   opacity: 0;
-  transform: scale(0.9);
-  transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+  transform: scale(0.8);
+  transition: opacity 0.5s ease-in-out, transform 0.3s ease-in-out;
 }
 
-#result.show {
-  opacity: 1;
-  transform: scale(1.2);
-  color: #e63946;
-}
-
-@keyframes fadeIn {
-  from { opacity: 0; transform: translateY(-10px); }
-  to { opacity: 1; transform: translateY(0); }
+.show-result {
+  opacity: 1 !important;
+  transform: scale(1) !important;
 }
