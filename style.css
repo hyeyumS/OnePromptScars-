@@ -1,5 +1,5 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Arial', sans-serif;
   background-color: #f4f4f4;
   display: flex;
   justify-content: center;
@@ -11,27 +11,45 @@ body {
 .container {
   background: #fff;
   padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
   text-align: center;
 }
 
-button {
-  background-color: #4caf50;
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  cursor: pointer;
-  margin-top: 10px;
+h1 {
+  color: #333;
 }
 
-button:hover {
-  background-color: #45a049;
+label {
+  display: block;
+  margin: 10px 0;
+  font-size: 18px;
 }
 
 input {
-  padding: 8px;
-  margin: 10px;
-  width: 100px;
+  padding: 5px;
+  font-size: 16px;
+  width: 60px;
+}
+
+button {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #444;
+}
+
+#result {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #555;
 }
