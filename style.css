@@ -1,6 +1,9 @@
-/* Google Fonts 적용: Oswald + Bebas Neue */
+/* Google Fonts 불러오기 */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Bebas+Neue&display=swap');
+
+/* 페이지 기본 스타일 */
 body {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Oswald', sans-serif; /* 기본 폰트: Oswald */
   background-color: #f4f4f4;
   display: flex;
   justify-content: center;
@@ -9,7 +12,7 @@ body {
   margin: 0;
 }
 
-/* 컨테이너 스타일 */
+/* 컨테이너 디자인 */
 .container {
   background: #fff;
   padding: 20px;
@@ -19,7 +22,7 @@ body {
   width: 300px;
 }
 
-/* 타이틀 스타일 */
+/* 제목 스타일 (Bebas Neue 적용) */
 h1 {
   font-family: 'Bebas Neue', sans-serif;
   font-size: 2.5rem;
