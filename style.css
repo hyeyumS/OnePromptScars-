@@ -1,7 +1,4 @@
-/* Google Fonts 불러오기 */
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Bebas+Neue&display=swap');
-
-/* 페이지 기본 스타일 */
+/* Google Font/* Google Fonts 불러오기 */
 body {
   font-family: 'Oswald', sans-serif; /* 기본 폰트: Oswald */
   background-color: #f4f4f4;
@@ -22,11 +19,11 @@ body {
   width: 300px;
 }
 
-/* 제목 스타일 (Bebas Neue 적용) */
+/* 제목 스타일 (Bebas Neue 적용 + 검정색 고정) */
 h1 {
-  font-family: 'Bebas Neue', sans-serif;
+  font-family: 'Bebas Neue', sans-serif; /* 타이틀 폰트 */
   font-size: 2.5rem;
-  color: #000; /* 검은색 */
+  color: #000 !important; /* 검정색 강제 적용 */
   margin-bottom: 15px;
 }
 
@@ -35,7 +32,7 @@ label {
   display: block;
   margin: 10px 0;
   font-size: 18px;
-  color: #000; /* 검은색 */
+  color: #000; /* 검정색 */
 }
 
 /* 입력창 스타일 */
@@ -44,12 +41,12 @@ input {
   font-size: 16px;
   width: 80px;
   text-align: center;
-  border: 1px solid #000; /* 입력창 테두리 검은색 */
+  border: 1px solid #000; /* 입력창 테두리 검정색 */
 }
 
 /* 버튼 스타일 (Bebas Neue 적용 + 검은색 통일) */
 button {
-  font-family: 'Bebas Neue', sans-serif; /* 버튼도 Bebas Neue 적용 */
+  font-family: 'Bebas Neue', sans-serif !important; /* 버튼에도 Bebas Neue 강제 적용 */
   background-color: #000; /* 검은색 버튼 */
   color: #fff;
   border: none;
