@@ -13,5 +13,6 @@ function calculateImpact() {
 
     setTimeout(() => {
         resultDiv.classList.add('fade-out');
+        resultDiv.classList.remove('show');
     }, 5000);
 }
